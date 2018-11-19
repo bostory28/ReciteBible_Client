@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainView_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <LinearLayout
+        android:id="@+id/linearLayout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:inputType="textPersonName"
+            android:paddingRight="15dp"
+            android:text="시편 91:1-2"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/check_remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="8dp"
+            android:padding="0dp"
+            android:button="@drawable/my_chk"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:layout_marginLeft="-20dp"
+            android:buttonTint="#3F51B5"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <CheckBox
+                android:id="@+id/check_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:button="@null"
+                android:background="@drawable/my_favorite"
+                android:layout_marginRight="-10dp"
+                android:scaleX="0.43"
+                android:scaleY="0.57" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout_interceptor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout_title">
+
+        <FrameLayout
+            android:id="@+id/frameLayout_verse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:background="?attr/colorPrimary"
+                    android:focusable="false"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:scrollbars="vertical"
+                    android:text="1. 지존자의 은밀한 곳에 거하는 자는 전능하신 자의 그늘 아래 거하리로다. \n2. 내가 여호와를 가리켜 말하기를 저는 나의 피난처요 나의 요새요 나의 의뢰하는 하나님이라 하리니"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25dp" />
+            </ScrollView>
+
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

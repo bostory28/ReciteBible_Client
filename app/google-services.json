@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "939832404742",
+    "firebase_url": "https://biblerecite-3045b.firebaseio.com",
+    "project_id": "biblerecite-3045b",
+    "storage_bucket": "biblerecite-3045b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939832404742:android:1ce75775f2344776",
+        "android_client_info": {
+          "package_name": "com.aucklandvision.biblerecite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939832404742-an6fkp1n2b43poc4jt8auqhht1l3is7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4ajJh_2oVpcxTAOoZKswUbn5sFPMbhPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

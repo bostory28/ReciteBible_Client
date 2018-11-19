@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/font_layout_divider"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text Size"
+                android:textColor="#3C3F41"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:layout_weight="100"
+                android:paddingTop="10dp">
+
+                <FrameLayout
+                    android:id="@+id/outer_fontsize_1step"
+                    android:layout_weight="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/font_layout_border2"
+                    android:padding="8dp">
+
+                    <FrameLayout
+                        android:id="@+id/inner_fontsize_1step"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/font_layout_border">
+
+                        <TextView
+                            android:id="@+id/text_fontsize_1step"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            android:hint="19"
+                            android:padding="5dp"
+                            android:text="Aa"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="#3C3F41"
+                            android:textSize="16dp" />
+                    </FrameLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/outer_fontsize_2step"
+                    android:layout_weight="15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/font_layout_border2"
+                    android:padding="8dp">
+
+                    <FrameLayout
+                        android:id="@+id/inner_fontsize_2step"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/font_layout_border">
+
+                        <TextView
+                            android:id="@+id/text_fontsize_2step"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            android:hint="22"
+                            android:padding="5dp"
+                            android:text="Aa"
+                            android:textColor="#3C3F41"
+                            android:textSize="19dp" />
+                    </FrameLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/outer_fontsize_3step"
+                    android:layout_weight="20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/font_layout_border2"
+                    android:padding="8dp">
+
+                    <FrameLayout
+                        android:id="@+id/inner_fontsize_3step"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/font_layout_border">
+
+                        <TextView
+                            android:id="@+id/text_fontsize_3step"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            android:hint="25"
+                            android:padding="5dp"
+                            android:text="Aa"
+                            android:textColor="#3C3F41"
+                            android:textSize="22dp" />
+                    </FrameLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/outer_fontsize_4step"
+                    android:layout_weight="25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/font_layout_border2"
+                    android:padding="8dp">
+
+                    <FrameLayout
+                        android:id="@+id/inner_fontsize_4step"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/font_layout_border">
+
+                        <TextView
+                            android:id="@+id/text_fontsize_4step"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            android:hint="28"
+                            android:padding="5dp"
+                            android:text="Aa"
+                            android:textColor="#3C3F41"
+                            android:textSize="25dp" />
+                    </FrameLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/outer_fontsize_5step"
+                    android:layout_weight="30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/font_layout_border2"
+                    android:padding="8dp">
+
+                    <FrameLayout
+                        android:id="@+id/inner_fontsize_5step"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/font_layout_border">
+
+                        <TextView
+                            android:id="@+id/text_fontsize_5step"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            android:hint="31"
+                            android:padding="5dp"
+                            android:text="Aa"
+                            android:textColor="#3C3F41"
+                            android:textSize="28dp" />
+                    </FrameLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Font Type"
+                android:textColor="#3C3F41"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp">
+
+                <LinearLayout
+                    android:id="@+id/outer_fonttype_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/font_layout_border2"
+                    android:padding="3dp">
+
+                    <FrameLayout
+                        android:id="@+id/inner_fonttype_normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/font_layout_border">
+
+                        <TextView
+                            android:id="@+id/text_fonttype_normal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="6.5dp"
+                            android:text="Normal"
+                            android:textAlignment="center"
+                            android:textColor="#3C3F41"
+                            android:textSize="15dp" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/outer_fonttype_americano"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/font_layout_border2"
+                    android:padding="3dp">
+
+                    <FrameLayout
+                        android:id="@+id/inner_fonttype_americano"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/font_layout_border">
+
+                        <TextView
+                            android:id="@+id/text_fonttype_americano"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:text="Americano"
+                            android:textAlignment="center"
+                            android:textColor="#3C3F41"
+                            android:textSize="15dp" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/outer_fonttype_letter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/font_layout_border2"
+                    android:padding="3dp">
+
+                    <FrameLayout
+                        android:id="@+id/inner_fonttype_letter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/font_layout_border">
+
+                        <TextView
+                            android:id="@+id/text_fonttype_letter"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:text="Letter"
+                            android:textAlignment="center"
+                            android:textColor="#3C3F41"
+                            android:textSize="15dp" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/outer_fonttype_music"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/font_layout_border2"
+                    android:padding="3dp">
+
+                    <FrameLayout
+                        android:id="@+id/inner_fonttype_music"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/font_layout_border">
+
+                        <TextView
+                            android:id="@+id/text_fonttype_music"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:text="Music"
+                            android:textAlignment="center"
+                            android:textColor="#3C3F41"
+                            android:textSize="15dp" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

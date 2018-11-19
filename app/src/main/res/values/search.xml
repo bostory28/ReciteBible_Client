@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>한글(개역개정)</item>
+        <item>ENGLISH(NIV)</item>
+    </string-array>
+    <string-array name="section">
+        <item>All Sections-신구약</item>
+        <item>Old Testament-구약</item>
+        <item>New Testament-신약</item>
+    </string-array>
+</resources>

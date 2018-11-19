@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/text_favorite_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favourites"
+            android:background="#3F51B5"
+            android:textColor="#ffffff"
+            android:padding="8dp"
+            android:textSize="20dp"/>
+        <ImageView
+            android:id="@+id/image_favorite_xbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/text_favorite_title"
+            android:layout_alignTop="@id/text_favorite_title"
+            android:layout_alignRight="@+id/text_favorite_title"
+            android:paddingRight="-42dp"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:src="@drawable/x_button" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/favorite_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0.6dp"
+        android:divider="#78E0E0E0">
+    </ListView>
+</LinearLayout>
